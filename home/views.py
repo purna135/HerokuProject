@@ -45,8 +45,8 @@ def send_mail(file):
 
 
 def whatsapp(url):
-    account_sid = 'AC2b1baea939fb45460c69fbb078edd61d'
-    auth_token = '782fc883c0f6aa914d58204be156460d'
+    account_sid = 'AC2b1baea939fb45460xxxxxxxxxxx'
+    auth_token = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
     client = Client(account_sid, auth_token)
 
     photo_url = f'http://litindia.herokuapp.com{url}'
