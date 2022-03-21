@@ -33,7 +33,7 @@ class ReceiveImages(APIView):
 def send_mail(file):
     tomail = 'purnachandramansingh135@gmail.com'
     subject = 'Security Report'
-    message = f'Someone at the door. Do I allow them?'
+    message = 'Someone at the door. Do I allow them?'
 
     mail = EmailMessage(subject, message, to=[tomail])
     mail.attach_file(file)
